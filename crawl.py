@@ -34,3 +34,5 @@ buttons = driver.find_elements_by_tag_name('button')
 buttons[1].click()
 
 time.sleep(30)
+
+driver.quit()
